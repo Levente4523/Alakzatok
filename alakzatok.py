@@ -210,28 +210,34 @@ def trajz():
             messagebox.showerror('Naa', 'Számot adj meg mindenhova!')
 
 def vlekerd1():
-    entry1.delete(0, END)
-    entry1.insert(0, vonal1_x1)
-    entry2.delete(0, END)
-    entry2.insert(0, vonal1_y1)
-    entry3.delete(0, END)
-    entry3.insert(0, vonal1_x2)
-    entry4.delete(0, END)
-    entry4.insert(0, vonal1_y2)
-    entry5.delete(0, END)
-    entry5.insert(0, vonal1_vas)
+    try:
+        entry1.delete(0, END)
+        entry1.insert(0, vonal1_x1)
+        entry2.delete(0, END)
+        entry2.insert(0, vonal1_y1)
+        entry3.delete(0, END)
+        entry3.insert(0, vonal1_x2)
+        entry4.delete(0, END)
+        entry4.insert(0, vonal1_y2)
+        entry5.delete(0, END)
+        entry5.insert(0, vonal1_vas)
+    except NameError:
+        messagebox.showerror('Naa', 'Nincs adat eltárolva!')
 
 def vlekerd2():
-    entry1.delete(0, END)
-    entry1.insert(0, vonal2_x1)
-    entry2.delete(0, END)
-    entry2.insert(0, vonal2_y1)
-    entry3.delete(0, END)
-    entry3.insert(0, vonal2_x2)
-    entry4.delete(0, END)
-    entry4.insert(0, vonal2_y2)
-    entry5.delete(0, END)
-    entry5.insert(0, vonal2_vas)
+    try:
+        entry1.delete(0, END)
+        entry1.insert(0, vonal2_x1)
+        entry2.delete(0, END)
+        entry2.insert(0, vonal2_y1)
+        entry3.delete(0, END)
+        entry3.insert(0, vonal2_x2)
+        entry4.delete(0, END)
+        entry4.insert(0, vonal2_y2)
+        entry5.delete(0, END)
+        entry5.insert(0, vonal2_vas)
+    except NameError:
+        messagebox.showerror('Naa', 'Nincs adat eltárolva!')
 
 def vtorles():
     global mano1, mano2
@@ -244,24 +250,30 @@ def vtorles():
         messagebox.showerror('Naa', 'Nem választottál ki semmit!')
 
 def klekerd1():
-    entry6.delete(0, END)
-    entry6.insert(0, kor1_x)
-    entry7.delete(0, END)
-    entry7.insert(0, kor1_y)
-    entry8.delete(0, END)
-    entry8.insert(0, r1)
-    entry9.delete(0, END)
-    entry9.insert(0, kor_vas1)
+    try:
+        entry6.delete(0, END)
+        entry6.insert(0, kor1_x)
+        entry7.delete(0, END)
+        entry7.insert(0, kor1_y)
+        entry8.delete(0, END)
+        entry8.insert(0, r1)
+        entry9.delete(0, END)
+        entry9.insert(0, kor_vas1)
+    except NameError:
+        messagebox.showerror('Naa', 'Nincs adat eltárolva!')
 
 def klekerd2():
-    entry6.delete(0, END)
-    entry6.insert(0, kor2_x)
-    entry7.delete(0, END)
-    entry7.insert(0, kor2_y)
-    entry8.delete(0, END)
-    entry8.insert(0, r2)
-    entry9.delete(0, END)
-    entry9.insert(0, kor_vas2)
+    try:
+        entry6.delete(0, END)
+        entry6.insert(0, kor2_x)
+        entry7.delete(0, END)
+        entry7.insert(0, kor2_y)
+        entry8.delete(0, END)
+        entry8.insert(0, r2)
+        entry9.delete(0, END)
+        entry9.insert(0, kor_vas2)
+    except NameError:
+        messagebox.showerror('Naa', 'Nincs adat eltárolva!')
 
 def ktorles():
     global mano3, mano4
@@ -274,28 +286,34 @@ def ktorles():
         messagebox.showerror('Naa', 'Nem választottál ki semmit!')
 
 def tlekerd1():
-    entry10.delete(0, END)
-    entry10.insert(0, tegla1_x1)
-    entry11.delete(0, END)
-    entry11.insert(0, tegla1_y1)
-    entry12.delete(0, END)
-    entry12.insert(0, tegla1_x2)
-    entry13.delete(0, END)
-    entry13.insert(0, tegla1_y2)
-    entry14.delete(0, END)
-    entry14.insert(0, tegla1_vas)
+    try:
+        entry10.delete(0, END)
+        entry10.insert(0, tegla1_x1)
+        entry11.delete(0, END)
+        entry11.insert(0, tegla1_y1)
+        entry12.delete(0, END)
+        entry12.insert(0, tegla1_x2)
+        entry13.delete(0, END)
+        entry13.insert(0, tegla1_y2)
+        entry14.delete(0, END)
+        entry14.insert(0, tegla1_vas)
+    except NameError:
+        messagebox.showerror('Naa', 'Nincs adat eltárolva!')
 
 def tlekerd2():
-    entry10.delete(0, END)
-    entry10.insert(0, tegla2_x1)
-    entry11.delete(0, END)
-    entry11.insert(0, tegla2_y1)
-    entry12.delete(0, END)
-    entry12.insert(0, tegla2_x2)
-    entry13.delete(0, END)
-    entry13.insert(0, tegla2_y2)
-    entry14.delete(0, END)
-    entry14.insert(0, tegla2_vas)
+    try:
+        entry10.delete(0, END)
+        entry10.insert(0, tegla2_x1)
+        entry11.delete(0, END)
+        entry11.insert(0, tegla2_y1)
+        entry12.delete(0, END)
+        entry12.insert(0, tegla2_x2)
+        entry13.delete(0, END)
+        entry13.insert(0, tegla2_y2)
+        entry14.delete(0, END)
+        entry14.insert(0, tegla2_vas)
+    except NameError:
+        messagebox.showerror('Naa', 'Nincs adat eltárolva!')
 
 def ttorles():
     global mano5, mano6
